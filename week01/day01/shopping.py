@@ -62,9 +62,10 @@ while True:
         print("输入错误，请重新输入")
 
 
-print("您已购买以下商品：")
-for i in list:
-    print("%s %d" % (i[0], i[1]))
+if list is not None:
+    print("您已购买以下商品：")
+    for i in list:
+        print("%s %d" % (i[0], i[1]))
 
 print("您的余额为：%d" % salary)
 print("欢迎下次光临")
