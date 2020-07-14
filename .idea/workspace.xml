@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aacdc80-8b37-44d2-a3fa-99371ba5f14a" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,18 +29,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Python.dict_lessson">
     <configuration name="dict_lessson" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fullstack" />
@@ -55,6 +42,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week01/day06/dict_lessson.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -76,6 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week01/day06/shopping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -129,6 +118,7 @@
       <workItem from="1594643829220" duration="98000" />
       <workItem from="1594643986774" duration="955000" />
       <workItem from="1594644971841" duration="1881000" />
+      <workItem from="1594727115072" duration="1101000" />
     </task>
     <servers />
   </component>
@@ -140,7 +130,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -163,14 +155,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="138" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594646871320" />
-    <state x="331" y="52" key="SettingsEditor" timestamp="1594645019141">
+    <state x="331" y="52" key="SettingsEditor" timestamp="1594727245943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="331" y="52" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594645019141" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1594644975881">
+    <state x="331" y="52" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594727245943" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1594727116303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594644975881" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594727116303" />
     <state x="508" y="264" width="671" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1594644891125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -178,5 +170,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fullstack$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1594646871311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week01/day01" />
+    <SUITE FILE_PATH="coverage/fullstack$dict_lessson.coverage" NAME="dict_lessson Coverage Results" MODIFIED="1594727140149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week01/day06" />
   </component>
 </project>
