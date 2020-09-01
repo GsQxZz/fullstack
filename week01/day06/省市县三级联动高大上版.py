@@ -49,16 +49,16 @@ menu = {
         },
     },
     '上海': {
-            '浦东': {
-                '陆家嘴': {
-                    'CICC': {},
-                    '高盛': {},
-                    '摩根': {}
-                },
-                '外滩': {}
+        '浦东': {
+            '陆家嘴': {
+                'CICC': {},
+                '高盛': {},
+                '摩根': {}
             },
-            '闵行': {},
-            '静安': {}
+            '外滩': {}
+        },
+        '闵行': {},
+        '静安': {}
     },
     '山东': {
         '济南': {},
@@ -73,3 +73,23 @@ menu = {
     }
 }
 
+current_layer = menu
+prev_layer = []
+
+while True:
+    for key in current_layer:
+        print(key)
+    choice = input(">>>:").strip()
+    if len(choice) == 0:continue
+    if choice in current_layer:
+        # prev_layer = current_layer
+        prev_layer.append(current_layer)
+        current_layer = current_layer[choice]
+    elif choice.lower() == 'b':
+        # current_layer = prev_layer
+        if prev_layer:
+            current_layer = prev_layer.pop()
+    elif choice.lower() == 'q':
+        break
+    else:
+        print("无此项")
